@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Belly Button Biodiversity</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <script src="https://d3js.org/d3.v7.min.js"></script>
+        <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    </head>
+    <body>
+        <header class="bg-primary text-white py-4">
+            <div class="container d-flex flex-column align-items-center justify-content-center">
+                <h1 class="display-4 text-center">Belly Button Biodiversity Dashboard</h1>
+                <p class="lead text-center">A simple and interactive way to explore data</p>
+            </div>
+        </header>        
+          <div class="container mt-4">
+            <div class="row justify-content-center">
+                <!-- Select Test Subject ID -->
+                <div class="col-12 col-md-8 text-center">
+                    <h3 class="mb-3">Test Subject ID: </h3>
+                    <select id="selDataset" class="form-select form-select-lg mb-4" aria-label="Select Test Subject ID">
+                        <!-- Options will be populated here -->
+                    </select>
+        
+                    <h3 class="mb-3">Demographic Metadata</h3>
+                    <div id="sampleMetadata" class="bg-light p-3 border rounded">
+                        <!-- Metadata will be displayed here -->
+                    </div>
+                </div>
+            </div> 
+        </div>
+        <div class="row">
+            <div class="col-md-12" id="hbarChart"></div>
+        </div>
+        <div class="row">
+            <div class="col-md-12" id="bubbleChart"></div>
+        </div>
+        <script src="static/js/app.js" async defer></script>
+    </body>
+</html>
