@@ -12,7 +12,7 @@ The dashboard is fully interactive and allows users to:
 
 ## Setup
 
-To run the app, please navigate to [https://jroelofsz.github.io/belly-button-challenge/](https://jroelofsz.github.io/belly-button-challenge/). The webpage is hosted on GitHub Pages, so no additional setup is required.
+To run the app, please navigate to <a href="https://jroelofsz.github.io/belly-button-challenge/" target="_blank">https://jroelofsz.github.io/belly-button-challenge/</a>. The webpage is hosted on GitHub Pages, so no additional setup is required.
 
 ## Functionality
 
